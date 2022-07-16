@@ -13,11 +13,11 @@ const Header = () => {
             <div className="header__location">
                 <HiOutlineLocationMarker />
                 <div className="header__locationText">
-                    <p>Delever To</p>
+                    <p>Deliver To</p>
                     <h3>Uzbekistan</h3>
                 </div>
                 <div className="header__searchContainer">
-                    <select name="" id="">
+                    <select name="e" id="">
                         <option value="">All</option>
                         <option value="">Arts & Crafts</option>
                     </select>
