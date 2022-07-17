@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     height: 100px;
     background-color: #131921;
@@ -7,7 +7,8 @@
     padding: 0px 20px;
     justify-content: space-around;
 }
-.header_logo{
+
+.header_logo {
     width: 170px;
     height: 90px;
     display: grid;
@@ -15,33 +16,38 @@
     border: 2px solid transparent;
     overflow: hidden;
 }
-.header_logo:hover{
+
+.header_logo:hover {
     border: 2px solid rgb(202, 202, 202);
     border-radius: 4px;
 }
-.header_logo svg{
+
+.header_logo svg {
     width: 160px;
     height: 120px;
     transform: translateY(-10px);
     fill: #fff;
     /* z-index: 10; */
 }
-.location{
+
+.location {
     display: flex;
     position: relative;
 }
-.location svg{
+
+.location svg {
     font-size: 30px;
     position: absolute;
     left: -30px;
     top: -5px;
     color: white;
 }
-.location h3{
+
+.location h3 {
     color: white;
 }
 
-.header_search{
+.header_search {
     display: flex;
     align-items: center;
     width: 1000px;
@@ -50,11 +56,13 @@
     background-color: #fff;
     border-radius: 7px;
 }
-.header_search_select_div{
+
+.header_search_select_div {
     background-color: rgba(128, 128, 128, 0.377);
     height: 100%;
 }
-.header_search_select_div select{
+
+.header_search_select_div select {
     height: 100%;
     border: none;
     font-size: 19px;
@@ -65,13 +73,14 @@
     padding: auto;
 }
 
-.search_inp{
+.search_inp {
     height: 100%;
     border: none;
     outline: none;
     flex: 1;
 }
-.search_icon{
+
+.search_icon {
     width: 70px;
     height: 100%;
     background-color: rgba(255, 166, 0, 0.658);
@@ -79,15 +88,18 @@
     transition: .3s;
     border: none;
 }
-.search_icon:hover{
+
+.search_icon:hover {
     background-color: orange;
 }
-.search_icon svg{
+
+.search_icon svg {
     color: #000;
     border: none;
     font-size: 30px;
 }
-.header_language{
+
+.header_language {
     width: 100px;
     height: 90px;
     display: flex;
@@ -95,103 +107,122 @@
     align-items: center;
     cursor: pointer;
 }
-.header_language:hover{
+
+.header_language:hover {
     border: 2px solid rgb(202, 202, 202);
     border-radius: 4px;
 }
-.header_language img{
+
+.header_language img {
     width: 40px;
 }
-.chewron_div svg{
+
+.chewron_div svg {
     font-size: 18px;
     transform: rotate(90deg);
     color: rgb(202, 202, 202);
     margin: 10px 0px 0px 10px;
 }
-.header_location{
+
+.header_location {
     width: 170px;
     height: 90px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border:  2px solid transparent;
+    border: 2px solid transparent;
     padding-left: 35px;
     cursor: pointer;
 }
-.header_location:hover{
-    border:  2px solid rgb(202, 202, 202);
+
+.header_location:hover {
+    border: 2px solid rgb(202, 202, 202);
     border-radius: 4px;
 }
-.header_location p{
+
+.header_location p {
     font-size: 18px;
     color: rgb(202, 202, 202);
     font-weight: 500;
 }
-.header_singin{
+
+.header_singin {
     width: 230px;
     height: 90px;
-    border:  2px solid transparent;
+    border: 2px solid transparent;
     display: flex;
     justify-content: center;
     padding-left: 15px;
-    cursor:  pointer;
+    cursor: pointer;
     flex-direction: column;
 }
-.header_singin:hover{
+
+.header_singin:hover {
     border: 2px solid rgb(202, 202, 202);
     border-radius: 4px;
 }
-.header_singin p{
+
+.header_singin p {
     font-size: 18px;
     color: rgb(202, 202, 202);
     font-weight: 500;
 }
-.account_list{
+
+.account_list {
     display: flex;
 }
-.account_list svg{
+
+.account_list svg {
     font-size: 18px;
     transform: rotate(90deg);
     color: rgb(202, 202, 202);
     margin: 7px 0px 0px 10px;
 
 }
-.account_list h3{
+
+.account_list h3 {
     color: white;
 }
-.header_order{
+
+.header_order {
     width: 150px;
     height: 90px;
-    border:  2px solid transparent;
+    border: 2px solid transparent;
     display: flex;
     justify-content: center;
     padding-left: 15px;
-    cursor:  pointer;
+    cursor: pointer;
     flex-direction: column;
 }
-.header_order:hover{
+
+.header_order:hover {
     border: 2px solid rgb(202, 202, 202);
     border-radius: 4px;
 }
-.header_order p{
+
+.header_order p {
     font-size: 18px;
     color: rgb(202, 202, 202);
     font-weight: 500;
 }
-.order_div{
+
+.order_div {
     display: flex;
 }
-.order_div svg{
+
+.order_div svg {
     font-size: 18px;
     transform: rotate(90deg);
     color: rgb(202, 202, 202);
     margin: 7px 0px 0px 10px;
 
 }
-.order_div h3{
+
+.order_div h3 {
     color: white;
 }
-.header_cart{
+
+.header_cart {
     width: 130px;
     height: 90px;
     display: grid;
@@ -199,20 +230,24 @@
     cursor: pointer;
     border: 2px solid transparent;
 }
-.header_cart:hover{
+
+.header_cart:hover {
     border: 2px solid rgb(202, 202, 202);
     border-radius: 4px;
 }
-.cart_div{
+
+.cart_div {
     display: flex;
 }
-.cart_div h3{
+
+.cart_div h3 {
     color: white;
     transform: translateY(23px);
     margin-left: 5px;
 
 }
-.cart_div svg{
+
+.cart_div svg {
     font-size: 50px;
     color: white;
 }
