@@ -1,7 +1,6 @@
 import React from 'react'
 import './Returns.css'
-// import { Link } from 'react-router-dom'
-// import { AiFillCaretDown} from './react-icons/ai';
+import { Link } from 'react-router-dom'
 
 
 const Returns = () => {
@@ -38,9 +37,9 @@ const Returns = () => {
         </div>
 
       </div>
-      {/* <Link to="/create">
+      <Link to="/create">
         <div className="sign__footer"><p> Create your Amazon accaunt</p></div>
-      </Link> */}
+      </Link>
     </div>
 
 

@@ -56,8 +56,10 @@ const Header = () => {
         <div className="chewron_div">
           <AiOutlineCaretRight />
         </div>
-        <div className="modal" style={{ display: `${modal ? "flex" : "none"}` }} ></div>
-        <p>Change language <span>Learn more</span></p>
+        <div className="modal" style={{ display: `${modal ? "flex" : "none"}` }} >
+          <p>Change language</p>
+        </div>
+
       </div>
       <div className="header_singin">
         <p>Hello, Sign in</p>

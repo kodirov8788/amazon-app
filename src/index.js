@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Route, Routes, BrowserRouter } from "react-router-dom"
+import Create from './pages/amazon-registration/Create';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <Routes>
 
         <Route exact path='/' element={<App />} />
+        <Route exact path="register" element={<Create />} />
 
       </Routes>
 
