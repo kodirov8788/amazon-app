@@ -1,0 +1,11 @@
+.products {
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.products__item {
+    border: 1px solid black;
+}

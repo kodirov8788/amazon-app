@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Route, Routes, BrowserRouter } from "react-router-dom"
 import Create from './pages/amazon-registration/Create';
+import Single from './pages/single__product/Single';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
 
         <Route exact path='/' element={<App />} />
         <Route exact path="register" element={<Create />} />
-
+        <Route path='product/:id' element={<Single />} />
       </Routes>
 
 
