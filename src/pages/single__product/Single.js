@@ -20,7 +20,7 @@ const Single = () => {
 
 
     }, [])
-    console.log(id);
+    // console.log(id);
 
 
 

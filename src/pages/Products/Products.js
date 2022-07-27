@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 
 const Products = () => {
-    console.log(ProductData);
+    // console.log(ProductData);
     return (
         <div className='products'>
             {
