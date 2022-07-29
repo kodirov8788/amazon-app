@@ -3,9 +3,9 @@ import "./Products.css";
 import { ProductData } from "../../static/static__data";
 import { Link } from "react-router-dom";
 
-const Products = (props) => {
+const Products = () => {
 
-    console.log(props.item);
+    console.log(ProductData);
     return (
         <div className="products">
             {ProductData.map((product) => (

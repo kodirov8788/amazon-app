@@ -9,22 +9,23 @@ import Single from "./pages/single__product/Single";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import { UserContextProvider } from "./context/userContext"
-
+import { CartProvider } from "./context/cartContext"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-
-    <UserContextProvider>
-      <BrowserRouter>
-        <Header />
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<App />} />
-          <Route exact path="register" element={<Create />} />
-          <Route path="product/:id" element={<Single />} />
-        </Routes>
-      </BrowserRouter>
-    </UserContextProvider>
+    <CartProvider>
+      <UserContextProvider>
+        <BrowserRouter>
+          <Header />
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<App />} />
+            <Route exact path="register" element={<Create />} />
+            <Route path="product/:id" element={<Single />} />
+          </Routes>
+        </BrowserRouter>
+      </UserContextProvider>
+    </CartProvider>
   </React.StrictMode>
 );
 
