@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { SingInWithGoogle } from "../../firebase/firebase";
 
 import "./Header.css";
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -6,6 +7,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { GoSearch } from "react-icons/go";
 import { AiOutlineCaretRight } from "react-icons/ai";
 const Header = () => {
+
 
   const [modal, setModal] = useState(false)
 
@@ -62,7 +64,7 @@ const Header = () => {
 
       </div>
       <div className="header_singin">
-        <p>Hello, Sign in</p>
+        <p>Hello,  <span className="name">{localStorage.getItem("Name")}</span> </p>
         <div className="account_list">
           <h3>Account & Lists</h3>
           <AiOutlineCaretRight />
