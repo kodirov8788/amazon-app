@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { createContext, useState, useEffect} from 'react'
 
  
@@ -27,3 +28,20 @@ export const UserContextProvider = ({children}) => {
    
     return <UserContext.Provider value={value}>{children}</UserContext.Provider>
 }
+=======
+import { createContext } from "react"
+
+
+export const UserContext = createContext()
+
+export const UserContextProvider = ({ children }) => {
+
+    const value = {
+        name: "Abror"
+    }
+
+    return <UserContext.Provider value={value}>{children}</UserContext.Provider>
+}
+
+
+>>>>>>> e2e2ab67ab677bb4fa62b30b6c1ba462fe1cbaa6
